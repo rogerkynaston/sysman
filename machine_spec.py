@@ -3,7 +3,7 @@
 import sys
 # This is the basic file that will generate information for the creation of the VM.
 print ("Enter the machine name.  If name is not important, enter 0")
-sysname = input()
+sysname = input('Name:')
 
 print ("Enter the Machine type")
 print ("1. Linux")
@@ -15,7 +15,7 @@ print ("1. AWS")
 print ("2. Azure")
 print ("3. Google")
 print ("4. Local")
-location = input('location')
+location = input('Location:')
 
 print ("Testing:", sysname)
 print ("Testing:", location)
