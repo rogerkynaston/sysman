@@ -1,6 +1,9 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
+# Modules here
+import sys
 # This is the basic file that will generate information for the creation of the VM.
-sysname = input('Enter the machine name. If machine name is not specific enter 0:')
+print ("Enter the machine name.  If name is not important, enter 0")
+sysname = input()
 
 print ("Enter the Machine type")
 print ("1. Linux")
