@@ -78,6 +78,9 @@ def locationfunc():
     else:
         return location
 
+    def create_terrfile()
+    # This will create the .tf file ready for terraform to create the machine.
+
 # now do some actual work
 systemname()
 locationfunc()
