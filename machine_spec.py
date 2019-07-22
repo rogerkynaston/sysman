@@ -5,6 +5,8 @@ import sys
 # define functions here
 def errfunc(errstring, exitno):
     # some code to exit (or not) if there is a problem.  Takes string and exit code
+    # Allows for both non fatal exit and a fatal. For now, at least, if the program terminates it signals a
+    # zero exit code.
     if exitno != 0:
       print ("Error:", errstring)
       sys.exit(0)
