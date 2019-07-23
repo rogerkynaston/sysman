@@ -1,6 +1,8 @@
 #!/usr/bin/python
+# Here we will just gather the requirements.  Other parts will talk to Terraform and Ansible and whatever.
 # Modules here
 import sys
+#import python_terraform
 
 # define functions here
 def errfunc(errstring, exitno):
